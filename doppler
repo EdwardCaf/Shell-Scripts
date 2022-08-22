@@ -1,3 +1,5 @@
 #!/bin/zsh
 
-mpv --loop-file=inf "https://radar.weather.gov/ridge/lite/KBOX_loop.gif"
+notify-send "Getting Weather..."
+
+mpv --loop-file=inf "https://radar.weather.gov/ridge/lite/KGYX_loop.gif"
